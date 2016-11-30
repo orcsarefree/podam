@@ -3,5 +3,4 @@ jdk:
   - oraclejdk8
   - oraclejdk7
 script:
- 
-  - mvn dependency:resolve
+
