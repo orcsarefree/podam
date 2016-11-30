@@ -4,7 +4,6 @@ jdk:
   - oraclejdk7
 script:
   - mvn clean verify
-  - mvn -B -Pdeploy -DexcludeGroupIds=com.github.github -V dependency:go-offline
 branches:
   only:
     - develop
