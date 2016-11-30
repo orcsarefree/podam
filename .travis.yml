@@ -5,6 +5,3 @@ jdk:
 script:
  
   - mvn dependency:resolve
-branches:
-  only:
-    - develop
